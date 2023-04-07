@@ -16,7 +16,7 @@ function generatePassword() {
 
   // validate
   if (length < 8 || length > 128) {
-    alert("Password length must be between 8 and 128 characters.");
+    alert("You did not pick a number between 8 and 128 TRY AGAIN");
     return;
   }
 
