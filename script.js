@@ -1,16 +1,19 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-// Pick random letters from an aray of letters, number..ect
-function generatePassword(){
-  
-
-}
-
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
+
+  // prompt
+  var length = prompt("between 8 and 128 characters")
+  var includeLowercase = confirm("should your password have lowercase letters")
+  var Uppercase = confirm("Should your password have Uppercase letters")
+  var Numbers = confirm("Should your password include numbers")
+  var Specialcharacters = confirm("Should your password have special characters")
+  
+
 
   passwordText.value = password;
 
