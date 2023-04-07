@@ -1,17 +1,18 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+
+
+
+  // Generate Password Function
+function generatePassword() {
 
   // prompt
-  var length = prompt("between 8 and 128 characters")
-  var includeLowercase = confirm("should your password have lowercase letters")
-  var Uppercase = confirm("Should your password have Uppercase letters")
-  var Numbers = confirm("Should your password include numbers")
-  var Specialcharacters = confirm("Should your password have special characters")
+  var length = prompt(" Your password should be between 8 and 128 characters. Pick a number between 8-128.")
+  var includeLowercase = confirm("Should your password have lowercase letters. Click ok for yes or cancel for no.")
+  var Uppercase = confirm("Should your password have Uppercase letters. Click ok for yes or cancel for no.")
+  var Numbers = confirm("Should your password include numbers. Click ok for yes or cancel for no.")
+  var Specialcharacters = confirm("Should your password have special characters. Click ok for yes or cancel for no")
 
   // validate
   if (length < 8 || length > 128) {
@@ -37,7 +38,7 @@ function writePassword() {
   if (Uppercase){
     charSet += uppercase;
   }
-  if (numbers){
+  if (Numbers){
     charSet += numeric;
   }
   if (Specialcharacters){
@@ -50,8 +51,13 @@ function writePassword() {
     var randomIndex = Math.floor(Math.random() * charSet.length);
     password += charSet[randomIndex];
   }
+  return password;
+}
 
- //Display
+  // Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
   passwordText.value = password;
 
 }
