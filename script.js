@@ -30,10 +30,28 @@ function writePassword() {
   var numeric = "0123456789";
   var specialchar = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
 
- 
+  var charSet = "";
+  if (includeLowercase) {
+    charSet += lowercase;
+  }
+  if (Uppercase){
+    charSet += uppercase;
+  }
+  if (numbers){
+    charSet += numeric;
+  }
+  if (Specialcharacters){
+    charSet += specialchar;
+  }
 
+  // generate
+  var password = "";
+  for (var i = 0; i < length; i++) {
+    var randomIndex = Math.floor(Math.random() * charSet.length);
+    password += charSet[randomIndex];
+  }
 
-
+ //Display
   passwordText.value = password;
 
 }
