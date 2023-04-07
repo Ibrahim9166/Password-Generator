@@ -23,7 +23,13 @@ function writePassword() {
     alert("At least one character type must be selected.");
     return;
   }
-  
+
+  //define wwhat characters to use
+  var lowercase = "abcdefghijklmnopqrstuvwxyz"
+  var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var numeric = "0123456789";
+  var specialchar = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
+
  
 
 
