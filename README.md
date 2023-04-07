@@ -10,3 +10,11 @@ HOW TO USE
 ![alt text](![Alt text](How%20to%20Take%20Screenshots%20on%20Windows%2010%20and%20Windows%2011%20-%20Google%20Chrome%204_6_2023%2010_10_58%20PM.png))
 
 ![alt text](![Alt text](How%20to%20Take%20Screenshots%20on%20Windows%2010%20and%20Windows%2011%20-%20Google%20Chrome%204_6_2023%2010_11_24%20PM.png))
+
+![alt text](![Alt text](How%20to%20Take%20Screenshots%20on%20Windows%2010%20and%20Windows%2011%20-%20Google%20Chrome%204_6_2023%2010_11_35%20PM.png))
+
+![alt text](![Alt text](How%20to%20Take%20Screenshots%20on%20Windows%2010%20and%20Windows%2011%20-%20Google%20Chrome%204_6_2023%2010_12_00%20PM.png))
+
+![alt text](![Alt text](How%20to%20Take%20Screenshots%20on%20Windows%2010%20and%20Windows%2011%20-%20Google%20Chrome%204_6_2023%2010_12_13%20PM.png))
+
+![alt text](![Alt text](How%20to%20Take%20Screenshots%20on%20Windows%2010%20and%20Windows%2011%20-%20Google%20Chrome%204_6_2023%2010_12_34%20PM.png))
